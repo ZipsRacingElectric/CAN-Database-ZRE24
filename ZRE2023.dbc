@@ -37,11 +37,16 @@ BU_: ACAN Dashboard ECU
 VAL_TABLE_ Button 1 "High" 0 "Low" ;
 
 
+BO_ 1793 ECU_Interpreted_APPS: 3 ECU
+ SG_ ECU_Braking : 1|1@1+ (1,0) [0|255] "Boolean" Vector__XXX
+ SG_ ECU_Accelerating : 0|1@1+ (1,0) [0|1] "Boolean" Vector__XXX
+ SG_ APPS_2_Scaled : 8|16@1+ (1,0) [0|65535] "Bits" Vector__XXX
+
 BO_ 5 Pedal_Input: 8 ACAN
- SG_ ACAN_Brake_1 : 48|10@1+ (1,0) [0|1023] "" Vector__XXX
- SG_ ACAN_Brake_0 : 32|10@1+ (1,0) [0|1023] "" Vector__XXX
- SG_ ACAN_APPS_1 : 16|10@1+ (1,0) [0|1023] "" Vector__XXX
- SG_ ACAN_APPS_0 : 0|10@1+ (1,0) [0|1023] "" Vector__XXX
+ SG_ ACAN_Brake_1 : 48|10@1+ (1,0) [0|1023] "ADC"  ECU
+ SG_ ACAN_Brake_0 : 32|10@1+ (1,0) [0|1023] "ADC"  ECU
+ SG_ ACAN_APPS_1 : 16|10@1+ (1,0) [0|1023] "ADC"  ECU
+ SG_ ACAN_APPS_0 : 0|10@1+ (1,0) [0|1023] "ADC"  ECU
 
 BO_ 255 Dash_Input: 2 Dashboard
  SG_ Dash_Switch_1 : 4|3@1+ (1,0) [0|7] "Enumerable"  ECU
@@ -62,7 +67,7 @@ BO_ 291 Set_DRS_Status: 1 ECU
  SG_ DRS_Enabled : 0|1@1+ (1,0) [0|1] "Boolean" Vector__XXX
 
 BO_ 1345 Misc_Status: 4 ECU
- SG_ IMD_Resistance : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ IMD_Resistance : 16|16@1+ (1,0) [0|65535] "ADC" Vector__XXX
  SG_ LV_Battery_Charge : 0|16@1+ (0.0196888,0) [0|1290.305508] "Volts" Vector__XXX
 
 BO_ 801 Dash_State: 1 ECU
@@ -73,8 +78,13 @@ BO_ 801 Dash_State: 1 ECU
 
 
 
+CM_ BU_ ACAN "Pedal Input";
 CM_ BU_ Dashboard "Dashboard";
 CM_ BU_ ECU "Vehicle ECU";
+CM_ BO_ 1793 "ECU Interpretted ACAN information";
+CM_ SG_ 1793 ECU_Braking "Brake Pressed";
+CM_ SG_ 1793 ECU_Accelerating "Accelerator Pressed";
+CM_ SG_ 1793 APPS_2_Scaled "Scaled APPS 2";
 CM_ BO_ 5 "Input from the APPS pedals";
 CM_ SG_ 5 ACAN_Brake_1 "Brake Value 1";
 CM_ SG_ 5 ACAN_Brake_0 "Brake Value 0";
@@ -95,6 +105,7 @@ CM_ SG_ 250 Torque_Percentage_Max "Maximum Torque Percentage";
 CM_ BO_ 291 "Command to enable/disable DRS";
 CM_ SG_ 291 DRS_Enabled "DRS Status";
 CM_ BO_ 1345 "Miscellaneous Vehicle Statuses";
+CM_ SG_ 1345 IMD_Resistance "IMD Resistance";
 CM_ SG_ 1345 LV_Battery_Charge "LV Battery Charge";
 CM_ BO_ 801 "Drive state and general errors for dashboard";
 CM_ SG_ 801 Rule_25_5_Warning "25/5 Plausibility";
@@ -103,6 +114,7 @@ CM_ SG_ 801 Inverter_Fault "Inverter Status";
 CM_ SG_ 801 Drive_State "Vehicle Status";
 BA_DEF_  "BusType" STRING ;
 BA_DEF_DEF_  "BusType" "CAN";
+VAL_ 1793 ECU_Accelerating 1 "Pressed" 0 "Not Pressed" ;
 VAL_ 255 Dash_Switch_1 7 "Null" 6 "Beans" 5 "Accel" 4 "Autocross" 3 "Endurance" 2 "Skidpad" 1 "Dan" 0 "Debug" ;
 VAL_ 255 Dash_Switch_0 7 "Position 7" 6 "Position 6" 5 "Position 5" 4 "Position 4" 3 "Position 3" 2 "Position 2" 1 "Position 1" 0 "Position 0" ;
 VAL_ 255 Dash_Button_Regen 1 "High" 0 "Low" ;
