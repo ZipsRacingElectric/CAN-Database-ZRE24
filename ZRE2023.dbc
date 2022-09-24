@@ -33,9 +33,15 @@ NS_ :
 
 BS_:
 
-BU_: Dashboard ECU
+BU_: ACAN Dashboard ECU
 VAL_TABLE_ Button 1 "High" 0 "Low" ;
 
+
+BO_ 5 Pedal_Input: 8 ACAN
+ SG_ ACAN_Brake_1 : 48|10@1+ (1,0) [0|1023] "" Vector__XXX
+ SG_ ACAN_Brake_0 : 32|10@1+ (1,0) [0|1023] "" Vector__XXX
+ SG_ ACAN_APPS_1 : 16|10@1+ (1,0) [0|1023] "" Vector__XXX
+ SG_ ACAN_APPS_0 : 0|10@1+ (1,0) [0|1023] "" Vector__XXX
 
 BO_ 255 Dash_Input: 2 Dashboard
  SG_ Dash_Switch_1 : 4|3@1+ (1,0) [0|7] "Enumerable"  ECU
@@ -69,6 +75,11 @@ BO_ 801 Dash_State: 1 ECU
 
 CM_ BU_ Dashboard "Dashboard";
 CM_ BU_ ECU "Vehicle ECU";
+CM_ BO_ 5 "Input from the APPS pedals";
+CM_ SG_ 5 ACAN_Brake_1 "Brake Value 1";
+CM_ SG_ 5 ACAN_Brake_0 "Brake Value 0";
+CM_ SG_ 5 ACAN_APPS_1 "APPS Value 1";
+CM_ SG_ 5 ACAN_APPS_0 "APPS Value 0";
 CM_ BO_ 255 "Input to the Dashboard";
 CM_ SG_ 255 Dash_Switch_1 "Switch for Driving Mode";
 CM_ SG_ 255 Dash_Switch_0 "Dashboard Switch 0";
