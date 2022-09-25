@@ -37,18 +37,18 @@ BU_: ACAN Dashboard ECU
 VAL_TABLE_ Button 1 "High" 0 "Low" ;
 
 
-BO_ 1793 ECU_Interpreted_APPS: 3 ECU
+BO_ 1793 Info_APPS_ECU: 3 ECU
  SG_ ECU_Braking : 1|1@1+ (1,0) [0|255] "Boolean" Vector__XXX
  SG_ ECU_Accelerating : 0|1@1+ (1,0) [0|1] "Boolean" Vector__XXX
  SG_ APPS_2_Scaled : 8|16@1+ (1,0) [0|65535] "Bits" Vector__XXX
 
-BO_ 5 Pedal_Input: 8 ACAN
+BO_ 5 Input_Pedals: 8 ACAN
  SG_ ACAN_Brake_1 : 48|10@1+ (1,0) [0|1023] "ADC"  ECU
  SG_ ACAN_Brake_0 : 32|10@1+ (1,0) [0|1023] "ADC"  ECU
  SG_ ACAN_APPS_1 : 16|10@1+ (1,0) [0|1023] "ADC"  ECU
  SG_ ACAN_APPS_0 : 0|10@1+ (1,0) [0|1023] "ADC"  ECU
 
-BO_ 255 Dash_Input: 2 Dashboard
+BO_ 255 Input_Dashboard: 2 Dashboard
  SG_ Dash_Switch_1 : 4|3@1+ (1,0) [0|7] "Enumerable"  ECU
  SG_ Dash_Switch_0 : 8|3@1+ (1,0) [0|7] "Enumerable"  ECU
  SG_ Dash_Button_Regen : 3|1@1+ (1,0) [0|1] "Boolean"  ECU
@@ -56,21 +56,21 @@ BO_ 255 Dash_Input: 2 Dashboard
  SG_ Dash_Button_Clear_Faults : 1|1@1+ (1,0) [0|1] "Boolean"  ECU
  SG_ Dash_Button_Start : 0|1@1+ (1,0) [0|1] "Boolean"  ECU
 
-BO_ 144 Steering_Angle: 2 Dashboard
+BO_ 144 Info_Steering_Angle: 2 Dashboard
  SG_ Steering_Angle : 0|16@1- (0.01,0) [-32768|32767] "Degrees" Vector__XXX
 
-BO_ 250 Torque_Percentage: 2 ECU
+BO_ 250 Info_Torque_Percentage: 2 ECU
  SG_ Torque_Percentage_Regen : 8|8@1+ (1,0) [0|255] "Percentage" Vector__XXX
  SG_ Torque_Percentage_Max : 0|8@1+ (1,0) [0|255] "Percentage" Vector__XXX
 
-BO_ 291 Set_DRS_Status: 1 ECU
+BO_ 291 Command_DRS_Status: 1 ECU
  SG_ DRS_Enabled : 0|1@1+ (1,0) [0|1] "Boolean" Vector__XXX
 
-BO_ 1345 Misc_Status: 4 ECU
+BO_ 1345 Status_ECU_2: 4 ECU
  SG_ IMD_Resistance : 16|16@1+ (1,0) [0|65535] "ADC" Vector__XXX
  SG_ LV_Battery_Charge : 0|16@1+ (0.0196888,0) [0|1290.305508] "Volts" Vector__XXX
 
-BO_ 801 Dash_State: 1 ECU
+BO_ 801 Status_Dashboard: 1 ECU
  SG_ Rule_25_5_Warning : 4|1@1+ (1,0) [0|1] "Boolean"  Dashboard
  SG_ LV_Battery_Warning : 3|1@1+ (1,0) [0|1] "Boolean"  Dashboard
  SG_ Inverter_Fault : 2|1@1+ (1,0) [0|1] "Boolean"  Dashboard
@@ -85,12 +85,12 @@ CM_ BO_ 1793 "ECU Interpretted ACAN information";
 CM_ SG_ 1793 ECU_Braking "Brake Pressed";
 CM_ SG_ 1793 ECU_Accelerating "Accelerator Pressed";
 CM_ SG_ 1793 APPS_2_Scaled "Scaled APPS 2";
-CM_ BO_ 5 "Input from the APPS pedals";
+CM_ BO_ 5 "Pedal Input";
 CM_ SG_ 5 ACAN_Brake_1 "Brake Value 1";
 CM_ SG_ 5 ACAN_Brake_0 "Brake Value 0";
 CM_ SG_ 5 ACAN_APPS_1 "APPS Value 1";
 CM_ SG_ 5 ACAN_APPS_0 "APPS Value 0";
-CM_ BO_ 255 "Input to the Dashboard";
+CM_ BO_ 255 "Dashboard Input";
 CM_ SG_ 255 Dash_Switch_1 "Switch for Driving Mode";
 CM_ SG_ 255 Dash_Switch_0 "Dashboard Switch 0";
 CM_ SG_ 255 Dash_Button_Regen "Regen Button";
