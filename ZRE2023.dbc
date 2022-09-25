@@ -43,10 +43,10 @@ BO_ 1793 Info_APPS_ECU: 3 ECU
  SG_ APPS_2_Scaled : 8|16@1+ (1,0) [0|65535] "Bits" Vector__XXX
 
 BO_ 5 Input_Pedals: 8 ACAN
- SG_ ACAN_Brake_1 : 48|10@1+ (1,0) [0|1023] "ADC"  ECU
- SG_ ACAN_Brake_0 : 32|10@1+ (1,0) [0|1023] "ADC"  ECU
- SG_ ACAN_APPS_1 : 16|10@1+ (1,0) [0|1023] "ADC"  ECU
- SG_ ACAN_APPS_0 : 0|10@1+ (1,0) [0|1023] "ADC"  ECU
+ SG_ Brake_2_Raw : 48|10@1+ (1,0) [0|1023] "ADC"  ECU
+ SG_ Brake_1_Raw : 32|10@1+ (1,0) [0|1023] "ADC"  ECU
+ SG_ APPS_2_Raw : 16|10@1+ (1,0) [0|1023] "ADC"  ECU
+ SG_ APPS_1_Raw : 0|10@1+ (1,0) [0|1023] "ADC"  ECU
 
 BO_ 255 Input_Dashboard: 2 Dashboard
  SG_ Dash_Switch_1 : 4|3@1+ (1,0) [0|7] "Enumerable"  ECU
@@ -86,10 +86,10 @@ CM_ SG_ 1793 ECU_Braking "Brake Pressed";
 CM_ SG_ 1793 ECU_Accelerating "Accelerator Pressed";
 CM_ SG_ 1793 APPS_2_Scaled "Scaled APPS 2";
 CM_ BO_ 5 "Pedal Input";
-CM_ SG_ 5 ACAN_Brake_1 "Brake Value 1";
-CM_ SG_ 5 ACAN_Brake_0 "Brake Value 0";
-CM_ SG_ 5 ACAN_APPS_1 "APPS Value 1";
-CM_ SG_ 5 ACAN_APPS_0 "APPS Value 0";
+CM_ SG_ 5 Brake_2_Raw "Brake Value 1";
+CM_ SG_ 5 Brake_1_Raw "Brake Value 0";
+CM_ SG_ 5 APPS_2_Raw "APPS Value 1";
+CM_ SG_ 5 APPS_1_Raw "APPS Value 0";
 CM_ BO_ 255 "Dashboard Input";
 CM_ SG_ 255 Dash_Switch_1 "Switch for Driving Mode";
 CM_ SG_ 255 Dash_Switch_0 "Dashboard Switch 0";
