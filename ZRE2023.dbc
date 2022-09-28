@@ -43,6 +43,7 @@ VAL_TABLE_ Button 1 "High" 0 "Low" ;
 
 BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
  SG_ Error_POST_Fault : 0|32@1+ (1,0) [0|4294967295] "Enumerable" Vector__XXX
+ SG_ APPS_2_Scaled : 0|16@1+ (1,0) [0|65535] "ADC" Vector__XXX
 
 BO_ 1797 TMP__ECU_Message_Status: 2 Vector__XXX
  SG_ TMP_message_received : 0|1@1+ (1,0) [0|1] "Bool" Vector__XXX
@@ -104,9 +105,9 @@ BO_ 160 Data_Temperature_1: 8 Inverter
  SG_ Temperature_Inverter_Module_A : 0|16@1- (0.1,0) [-3276.8|3276.7] "Celcius" Vector__XXX
 
 BO_ 1793 Info_APPS_ECU: 3 ECU
+ SG_ APPS_1_Raw : 8|10@1+ (1,0) [0|1023] "ADC" Vector__XXX
  SG_ ECU_Braking : 1|1@1+ (1,0) [0|255] "Boolean" Vector__XXX
  SG_ ECU_Accelerating : 0|1@1+ (1,0) [0|1] "Boolean" Vector__XXX
- SG_ APPS_2_Scaled : 8|16@1+ (1,0) [0|65535] "ADC" Vector__XXX
 
 BO_ 5 Input_Pedals: 8 ACAN
  SG_ Brake_2_Raw : 48|10@1+ (1,0) [0|1023] "ADC"  ECU
@@ -150,6 +151,7 @@ CM_ BU_ Dashboard "Dashboard";
 CM_ BU_ ECU "Vehicle ECU";
 CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
 CM_ SG_ 3221225472 Error_POST_Fault "Inverter POST Fault Code";
+CM_ SG_ 3221225472 APPS_2_Scaled "Scaled APPS 2";
 CM_ BO_ 1797 "Temporary debug message";
 CM_ SG_ 1797 TMP_message_received "ECU bool APPS message received";
 CM_ SG_ 1797 TMP_message_not_received_count "ECU count of messages not received from APPS";
@@ -194,9 +196,9 @@ CM_ SG_ 160 Temperature_Inverter_Module_C "Temperature of IGBT Module, Phase C";
 CM_ SG_ 160 Temperature_Inverter_Module_B "Temperature of IGBT Module, Phase B";
 CM_ SG_ 160 Temperature_Inverter_Module_A "Temperature of IGBT Module, Phase A";
 CM_ BO_ 1793 "ECU Interpretted ACAN information";
+CM_ SG_ 1793 APPS_1_Raw "APPS Value 0";
 CM_ SG_ 1793 ECU_Braking "Brake Pressed";
 CM_ SG_ 1793 ECU_Accelerating "Accelerator Pressed";
-CM_ SG_ 1793 APPS_2_Scaled "Scaled APPS 2";
 CM_ BO_ 5 "Pedal Input";
 CM_ SG_ 5 Brake_2_Raw "Brake Value 1";
 CM_ SG_ 5 Brake_1_Raw "Brake Value 0";
