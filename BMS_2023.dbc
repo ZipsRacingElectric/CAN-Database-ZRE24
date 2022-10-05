@@ -1,0 +1,143 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: BMS
+
+
+BO_ 1050 Cell_Balancings_2: 3 BMS
+ SG_ Cell90_Balancing : 17|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell89_Balancing : 16|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell88_Balancing : 15|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell87_Balancing : 14|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell86_Balancing : 13|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell85_Balancing : 12|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell84_Balancing : 11|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell83_Balancing : 10|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell82_Balancing : 9|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell81_Balancing : 8|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell80_Balancing : 7|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell79_Balancing : 6|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell78_Balancing : 5|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell77_Balancing : 4|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell76_Balancing : 3|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell75_Balancing : 2|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell74_Balancing : 1|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell73_Balancing : 0|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+
+BO_ 1049 Cell_Balancings_1: 6 BMS
+ SG_ Cell72_Balancing : 41|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell71_Balancing : 40|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell70_Balancing : 39|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell69_Balancing : 38|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell68_Balancing : 37|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell67_Balancing : 36|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell66_Balancing : 35|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell65_Balancing : 34|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell64_Balancing : 33|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell63_Balancing : 32|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell62_Balancing : 31|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell61_Balancing : 30|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell60_Balancing : 29|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell59_Balancing : 28|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell58_Balancing : 27|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell57_Balancing : 26|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell56_Balancing : 25|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell55_Balancing : 24|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell54_Balancing : 17|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell53_Balancing : 16|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell52_Balancing : 15|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell51_Balancing : 14|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell50_Balancing : 13|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell49_Balancing : 12|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell48_Balancing : 11|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell47_Balancing : 10|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell46_Balancing : 9|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell45_Balancing : 8|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell44_Balancing : 7|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell43_Balancing : 6|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell42_Balancing : 5|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell41_Balancing : 4|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell40_Balancing : 3|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell39_Balancing : 2|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell38_Balancing : 1|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell37_Balancing : 0|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+
+BO_ 1048 Cell_Balancings_0: 6 BMS
+ SG_ Cell36_Balancing : 41|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell35_Balancing : 40|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell34_Balancing : 39|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell33_Balancing : 38|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell32_Balancing : 37|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell31_Balancing : 36|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell30_Balancing : 35|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell29_Balancing : 34|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell28_Balancing : 33|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell27_Balancing : 32|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell26_Balancing : 31|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell25_Balancing : 30|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell24_Balancing : 29|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell23_Balancing : 28|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell22_Balancing : 27|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell21_Balancing : 26|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell20_Balancing : 25|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell19_Balancing : 24|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell18_Balancing : 17|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell17_Balancing : 16|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell16_Balancing : 15|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell15_Balancing : 14|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell14_Balancing : 13|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell13_Balancing : 12|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell12_Balancing : 11|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell11_Balancing : 10|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell10_Balancing : 9|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell09_Balancing : 8|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell08_Balancing : 7|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell07_Balancing : 6|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell06_Balancing : 5|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell05_Balancing : 4|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell04_Balancing : 3|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell03_Balancing : 2|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell02_Balancing : 1|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+ SG_ Cell01_Balancing : 0|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
+
+
+
+CM_ BU_ BMS "Vehicle BMS";
+CM_ BO_ 1050 "Balancing of BMS Cells";
+CM_ BO_ 1049 "Balancing of BMS Cells";
+CM_ BO_ 1048 "Balancing of BMS Cells";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "CAN";
+
