@@ -36,7 +36,143 @@ BS_:
 BU_: BMS
 
 
-BO_ 1050 Cell_Balancings_2: 3 BMS
+BO_ 1047 Cell_Voltage_89_90: 4 BMS
+ SG_ Cell90_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell89_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1046 Cell_Voltage_85_88: 8 BMS
+ SG_ Cell88_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell87_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell86_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell85_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1045 Cell_Voltage_81_84: 8 BMS
+ SG_ Cell84_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell83_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell82_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell81_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1044 Cell_Voltage_77_80: 8 BMS
+ SG_ Cell80_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell79_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell78_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell77_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1043 Cell_Voltage_73_76: 8 BMS
+ SG_ Cell76_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell75_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell74_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell73_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1042 Cell_Voltages_69_72: 8 BMS
+ SG_ Cell72_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell71_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell70_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell69_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1041 Cell_Voltages_65_68: 8 BMS
+ SG_ Cell68_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell67_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell66_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell65_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1040 Cell_Voltages_61_64: 8 BMS
+ SG_ Cell64_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell63_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell62_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell61_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1039 Cell_Voltages_57_60: 8 BMS
+ SG_ Cell60_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell59_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell58_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell57_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1038 Cell_Voltages_53_56: 8 BMS
+ SG_ Cell56_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell55_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell54_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell53_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1037 Cell_Voltages_49_52: 8 BMS
+ SG_ Cell52_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell51_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell50_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell49_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1036 Cell_Voltages_45_48: 8 BMS
+ SG_ Cell48_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell47_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell46_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell45_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1035 Cell_Voltages_41_44: 8 BMS
+ SG_ Cell44_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell43_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell42_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell41_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1034 Cell_Voltages_37_40: 8 BMS
+ SG_ Cell40_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell39_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell38_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell37_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1033 Cell_Voltages_33_36: 8 BMS
+ SG_ Cell36_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell35_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell34_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell33_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1032 Cell_Voltages_29_32: 8 BMS
+ SG_ Cell32_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell31_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell30_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell29_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1031 Cell_Voltages_25_28: 8 BMS
+ SG_ Cell28_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell27_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell26_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell25_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1030 Cell_Voltages_21_24: 8 BMS
+ SG_ Cell24_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell23_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell22_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell21_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1029 Cell_Voltages_17_20: 8 BMS
+ SG_ Cell20_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell19_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell18_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell17_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1028 Cell_Voltages_13_16: 8 BMS
+ SG_ Cell16_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell15_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell14_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell13_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1027 Cell_Voltages_09_12: 8 BMS
+ SG_ Cell12_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell11_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell10_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell09_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1026 Cell_Voltages_05_08: 8 BMS
+ SG_ Cell08_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell07_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell06_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell05_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1025 Cell_Voltages_01_04: 8 BMS
+ SG_ Cell04_Voltage : 55|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell03_Voltage : 39|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell02_Voltage : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+ SG_ Cell01_Voltage : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
+
+BO_ 1050 Cell_Balancings_73_90: 3 BMS
  SG_ Cell90_Balancing : 17|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
  SG_ Cell89_Balancing : 16|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
  SG_ Cell88_Balancing : 15|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
@@ -56,7 +192,7 @@ BO_ 1050 Cell_Balancings_2: 3 BMS
  SG_ Cell74_Balancing : 1|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
  SG_ Cell73_Balancing : 0|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
 
-BO_ 1049 Cell_Balancings_1: 6 BMS
+BO_ 1049 Cell_Balancings_37_72: 6 BMS
  SG_ Cell72_Balancing : 41|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
  SG_ Cell71_Balancing : 40|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
  SG_ Cell70_Balancing : 39|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
@@ -94,7 +230,7 @@ BO_ 1049 Cell_Balancings_1: 6 BMS
  SG_ Cell38_Balancing : 1|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
  SG_ Cell37_Balancing : 0|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
 
-BO_ 1048 Cell_Balancings_0: 6 BMS
+BO_ 1048 Cell_Balancings_01_36: 6 BMS
  SG_ Cell36_Balancing : 41|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
  SG_ Cell35_Balancing : 40|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
  SG_ Cell34_Balancing : 39|1@1+ (1,0) [0|1] "Balanced" Vector__XXX
@@ -135,9 +271,32 @@ BO_ 1048 Cell_Balancings_0: 6 BMS
 
 
 CM_ BU_ BMS "Vehicle BMS";
-CM_ BO_ 1050 "Balancing of BMS Cells";
-CM_ BO_ 1049 "Balancing of BMS Cells";
-CM_ BO_ 1048 "Balancing of BMS Cells";
+CM_ BO_ 1047 "Voltage of Cells 89-90";
+CM_ BO_ 1046 "Voltage of Cells 85-88";
+CM_ BO_ 1045 "Voltage of Cells 81-84";
+CM_ BO_ 1044 "Voltage of Cells 77-80";
+CM_ BO_ 1043 "Voltage of Cells 73-76";
+CM_ BO_ 1042 "Voltage of Cells 69-72";
+CM_ BO_ 1041 "Voltage of Cells 65-68";
+CM_ BO_ 1040 "Voltage of Cells 61-64";
+CM_ BO_ 1039 "Voltage of Cells 57-60";
+CM_ BO_ 1038 "Voltage of Cells 53-56";
+CM_ BO_ 1037 "Voltage of Cells 49-52";
+CM_ BO_ 1036 "Voltage of Cells 45-48";
+CM_ BO_ 1035 "Voltage of Cells 41-44";
+CM_ BO_ 1034 "Voltage of Cells 37-40";
+CM_ BO_ 1033 "Voltage of Cells 33-36";
+CM_ BO_ 1032 "Voltage of Cells 29-32";
+CM_ BO_ 1031 "Voltage of Cells 25-28";
+CM_ BO_ 1030 "Voltage of Cells 21-24";
+CM_ BO_ 1029 "Voltage of Cells 17-20";
+CM_ BO_ 1028 "Voltage of Cells 13-16";
+CM_ BO_ 1027 "Voltage of Cells 9-12";
+CM_ BO_ 1026 "Voltage of Cells 5-8";
+CM_ BO_ 1025 "Voltage of Cells 1-4";
+CM_ BO_ 1050 "Balancing of Cells 73-90";
+CM_ BO_ 1049 "Balancing of Cells 37-72";
+CM_ BO_ 1048 "Balancing of Cells 1-36";
 BA_DEF_  "BusType" STRING ;
 BA_DEF_DEF_  "BusType" "CAN";
 
