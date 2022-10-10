@@ -46,6 +46,7 @@ BO_ 171 Error_Inverter_Fault: 8 Inverter
  SG_ Error_POST_Fault : 0|32@1+ (1,0) [0|4294967295] "Word"  ECU
 
 BO_ 1795 Status_ECU: 8 ECU
+ SG_ Error_100ms_Plausible : 10|1@1+ (1,0) [0|1] "Boolean" Vector__XXX
  SG_ Voltage_LV_Battery : 32|16@1+ (0.0196888,0) [0|1290.305508] "Volts" Vector__XXX
  SG_ Torque_Percentage_Regen : 24|8@1+ (1,0) [0|255] "Percent" Vector__XXX
  SG_ Torque_Percentage_Max : 16|8@1+ (1,0) [0|255] "Percent" Vector__XXX
