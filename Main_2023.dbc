@@ -66,11 +66,11 @@ BO_ 1795 Status_ECU: 8 ECU
  SG_ Car_Braking : 3|1@1+ (1,0) [0|1] "Boolean" Vector__XXX
  SG_ Car_Accelerating : 2|1@1+ (1,0) [0|1] "Boolean" Vector__XXX
 
-BO_ 1793 Data_Pedals: 8 ECU
- SG_ Brake_2 : 48|10@1+ (3.0518,-312.5) [-312.5|2809.4914] "Psi" Vector__XXX
- SG_ Brake_1 : 32|10@1+ (3.0518,-312.5) [-312.5|2809.4914] "Psi" Vector__XXX
- SG_ APPS_2 : 16|10@1+ (1,0) [0|1023] "ADC" Vector__XXX
- SG_ APPS_1 : 0|10@1+ (1,0) [0|1023] "ADC" Vector__XXX
+BO_ 1793 Data_Pedals: 4 ECU
+ SG_ Brake_2_Percent : 24|8@1+ (1,0) [0|255] "Percent" Vector__XXX
+ SG_ Brake_1_Percent : 16|8@1+ (1,0) [0|255] "Percent" Vector__XXX
+ SG_ APPS_2_Percent : 8|8@1+ (1,0) [0|255] "Percent" Vector__XXX
+ SG_ APPS_1_Percent : 0|8@1+ (1,0) [0|255] "Percent" Vector__XXX
 
 BO_ 192 Command_Inverter: 8 ECU
  SG_ Torque_Limit : 48|16@1- (0.1,0) [-3276.8|3276.7] "Newton Meters"  Inverter
@@ -179,11 +179,11 @@ CM_ SG_ 1795 Car_DRS_State "DRS Status";
 CM_ SG_ 1795 Car_Drive_State "ECU Drive Status";
 CM_ SG_ 1795 Car_Braking "ECU Brake Status";
 CM_ SG_ 1795 Car_Accelerating "ECU Accelerator Status";
-CM_ BO_ 1793 "ECU Pedal Data";
-CM_ SG_ 1793 Brake_2 "Brake-2 ECU Reading";
-CM_ SG_ 1793 Brake_1 "Brake-1 ECU Reading";
-CM_ SG_ 1793 APPS_2 "APPS-2 ECU Reading";
-CM_ SG_ 1793 APPS_1 "APPS-1 ECU Reading";
+CM_ BO_ 1793 "ECU Pedal Percentages";
+CM_ SG_ 1793 Brake_2_Percent "Brake-2 Percentage";
+CM_ SG_ 1793 Brake_1_Percent "Brake-1 Percentage";
+CM_ SG_ 1793 APPS_2_Percent "APPS-2 Percentage";
+CM_ SG_ 1793 APPS_1_Percent "APPS-1 Percentage";
 CM_ BO_ 192 "Command for inverter activity";
 CM_ SG_ 192 Torque_Limit "Inverter Torque Limit Command";
 CM_ SG_ 192 Speed_Mode "Inverter Speed Mode Command";
@@ -202,7 +202,7 @@ CM_ SG_ 167 Voltage_Q_Axis "Inverter Q-Axis Voltage. Refers to Phase B-C when di
 CM_ SG_ 167 Voltage_D_Axis "Inverter D-Axis Voltage. Refers to Phase A-B Voltage when disabled";
 CM_ SG_ 167 Voltage_Inverter_Output "Voltage of the Inverters Output";
 CM_ SG_ 167 Voltage_DC_Bus "Voltage of the Inverter DC Bus";
-CM_ BO_ 166 "Current information from the Inverter";
+CM_ BO_ 166 "Inverter Current Information";
 CM_ SG_ 166 Current_DC_Bus "Current of Inverter DC Bus";
 CM_ SG_ 166 Current_Phase_C "Current of Inverter Phase C";
 CM_ SG_ 166 Current_Phase_B "Current of Inverter Phase B";
