@@ -1,6 +1,6 @@
+| Message | Name | Length (Bit) | Byte Order | Value Type | Factor | Offset | Unit | Comment |
 |---|---|---|---|---|---|---|---|---|
-| Message | Name | Length [Bit] | Byte Order | Value Type | Factor | Offset | Unit | Comment |
-| | Status_ECU (0x703) | Error_100ms_Implausible | 1 | Intel | Unsigned | 1 | 0 | Boolean | 100ms APPS Plausibility |
+| Status_ECU (0x703) | Error_100ms_Implausible | 1 | Intel | Unsigned | 1 | 0 | Boolean | 100ms APPS Plausibility |
 | | Error_25_5_Implausible | 1 | Intel | Unsigned | 1 | 0 | Boolean | APPS 25/5 Plausibility | 
 | | Error_ACAN_Implausible | 1 | Intel | Unsigned | 1 | 0 | Boolean | ACAN Pedal Plausibility |
 | | Error_Inverter_Fault | 1 | Intel | Unsigned | 1 | 0 | Boolean | Inverter Status |
@@ -24,7 +24,7 @@
 | | Error_BMS_Voltage_Fault | 1 | Intel | Unsigned | 1 | 0 | Boolean | BMS Voltage Fault |
 | | Power_BMS | 8 | Intel | Unsigned | 1 | 0 | KiloWatts | Accumulator Power Draw |
 | | State_of_Charge | 8 | Intel | Unsigned | 1 | 0 | Percentage | Accumulator State of Charge |
-| | Temperature_BMS_Max | 8 | Intel | Unsigned | 1 | 0 | Celcius | Highest Accumulator Temperature |
+| | Temperature_BMS_Max | 8 | Intel | Unsigned | 1 | 0 | Celsius | Highest Accumulator Temperature |
 | | Voltage_BMS | 16 | Intel | Unsigned | 1 | 0 | Volts | Pack Cell Voltage |
 | Status_BMS (0x440) | Current_BMS_Hi | 16 | Intel | Unsigned | 0.1 | 0 | Amperes | Current Hi Byte |
 | | Current_BMS_Lo | 16 | Intel | Unsigned | 0.01 | 0 | Amperes | Current Lo Byte |
@@ -73,7 +73,7 @@
 | | Motor_Speed | 16 | Intel | Signed | 1 | 0 | RPM | The Angluar Velocity of the Motor |
 | Data_Flux (0x0A8) | Current_D_Axis | 16 | Intel | Signed | 0.1 | 0 | Amps | Current of Inverter D-Axis |
 | | Current_Q_Axis | 16 | Intel | Signed | 0.1 | 0 | Amps | Current  of Inverter Q-Axis |
-| Flux | 16 | Intel | Signed | 0.001 | 0 | Webers | Inverter Actual Flux |
+| | Flux | 16 | Intel | Signed | 0.001 | 0 | Webers | Inverter Actual Flux |
 | | Flux_Target | 16 | Intel | Signed | 0.001 | 0 | Webers | Inverter Target Flux |
 | Data_Current (0x0A6) | Current_DC_Bus | 16 | Intel | Signed | 0.1 | 0 | Amps | Current of Inverter DC Bus |
 | | Current_Phase_A | 16 | Intel | Signed | 0.1 | 0 | Amps | Current of Inverter Phase A |
