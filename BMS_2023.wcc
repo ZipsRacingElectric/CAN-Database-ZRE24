@@ -94,7 +94,7 @@
           <INT Name="IdAsHex">1</INT>
           <DIR Name="Database0">
             <STR Name="Key">CAN 1</STR>
-            <STR Name="Filename">C:\Users\cmb\Zips Racing Electric\Gitlab\candatabase23\Main_2023.dbc</STR>
+            <STR Name="Filename">C:\Users\cmb\Zips Racing Electric\Gitlab\candatabase23\BMS_2023.dbc</STR>
           </DIR>
         </DIR>
         <DIR Name="Fmt2">
@@ -171,8 +171,8 @@
       </DIR>
       <DIR Name="2">
         <STR Name="Class">TOutputWindow</STR>
-        <INT Name="Left">372</INT>
-        <INT Name="Top">4</INT>
+        <INT Name="Left">0</INT>
+        <INT Name="Top">0</INT>
         <INT Name="Width">1158</INT>
         <INT Name="Height">823</INT>
         <INT Name="State">0</INT>
