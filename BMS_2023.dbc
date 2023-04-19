@@ -116,15 +116,6 @@ BO_ 1085 Status_Sense_Lines_00_01: 6 BMS
  SG_ Segment_01_Sense_Line : 24|24@1+ (1,0) [0|16777215] "Bit Field" Vector__XXX
  SG_ Segment_00_Sense_Line : 0|24@1+ (1,0) [0|16777215] "Bit Field" Vector__XXX
 
-BO_ 1088 Status_BMS: 7 BMS
- SG_ State_of_Charge : 0|16@1+ (0.1,0) [0|6553.5] "Percentage" Vector__XXX
- SG_ Error_BMS_Voltage_Fault : 49|1@1+ (1,0) [0|1] "Boolean" Vector__XXX
- SG_ Error_BMS_Temperature_Fault : 48|1@1+ (1,0) [0|1] "Boolean" Vector__XXX
- SG_ Error_BMS_Sense_Line_Fault : 52|1@1+ (1,0) [0|1] "Boolean" Vector__XXX
- SG_ Error_BMS_Self_Test_Fault : 50|1@1+ (1,0) [0|1] "Boolean" Vector__XXX
- SG_ Current_BMS_Lo : 32|16@1+ (0.01,0) [0|655.35] "Amperes" Vector__XXX
- SG_ Current_BMS_Hi : 16|16@1+ (0.1,0) [0|6553.5] "Amperes" Vector__XXX
-
 BO_ 1047 Cell_Voltages_88_89: 4 BMS
  SG_ Voltage_Cell_89 : 23|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
  SG_ Voltage_Cell_88 : 7|16@0+ (0.0001,0) [0|6.5535] "Volts" Vector__XXX
@@ -380,8 +371,6 @@ CM_ SG_ 1086 Segment_02_Sense_Line "Status of Segment 2 Sense Line";
 CM_ BO_ 1085 "Status of Sense Lines 0 & 1";
 CM_ SG_ 1085 Segment_01_Sense_Line "Status of Segment 1 Sense Line";
 CM_ SG_ 1085 Segment_00_Sense_Line "Status of Segment 0 Sense Line";
-CM_ BO_ 1088 "Accumulator Status Message";
-CM_ SG_ 1088 State_of_Charge "State of Charge of the Accumulator";
 CM_ BO_ 1047 "Voltage of Cells 88-89";
 CM_ BO_ 1046 "Voltage of Cells 84-87";
 CM_ BO_ 1045 "Voltage of Cells 80-83";
