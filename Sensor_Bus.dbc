@@ -33,8 +33,21 @@ NS_ :
 
 BS_:
 
-BU_: BMS
+BU_: QG65N BMS
 
+
+BO_ 641 Q65N_TPD02: 0 QG65N
+
+BO_ 128 QG65N_Sync_Command: 0 QG65N
+
+BO_ 129 QG65N_Emergency_Message: 0 QG65N
+
+BO_ 385 QG54N_TPD01: 6 QG65N
+ SG_ acceleration_z_avg : 32|16@1- (0.001,0) [-8|8] "G" Vector__XXX
+ SG_ acceleration_y_avg : 16|16@1- (0.001,0) [-8|8] "G" Vector__XXX
+ SG_ acceleration_x_avg : 0|16@1- (0.001,0) [-8|8] "G" Vector__XXX
+
+BO_ 1793 QG65N_Heatbeat_Message: 0 QG65N
 
 BO_ 1062 Pack_Temperatures_44: 8 BMS
  SG_ Temperature_Sensor_44 : 7|16@0+ (-0.0021933,81.297) [-62.4409155|81.297] "Celcius" Vector__XXX
